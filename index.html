@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI 日报 · 每日晨报</title>
+<meta name="description" content="AI HOT 每日 AI 资讯晨报，按模型发布、产品发布、行业动态、论文研究、技巧与观点五个版块整理，支持历史回溯。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234f46e5'/%3E%3Ctext x='16' y='22' font-size='17' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'%3EAI%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="eyebrow">AI 日报 · 每日晨报</span>
+    <h1 id="hDate">加载中…</h1>
+    <p class="hero-meta">
+      <span>生成于 <b id="mGen">—</b>（北京时间）</span>
+      <span>收录窗口 <b id="mWin">—</b></span>
+    </p>
+    <p class="lead" id="mLead"></p>
+    <div class="hero-stats">
+      <div class="total"><span class="n" id="sTotal">—</span><span class="l">本期总条数</span></div>
+      <div class="stats" id="sStats"></div>
+    </div>
+  </div>
+</header>
+
+<nav class="datebar">
+  <div class="wrap datebar-in">
+    <button class="db-btn" id="btnPrev" type="button">← 上一期</button>
+    <select class="db-sel" id="selDate" aria-label="选择期数"></select>
+    <button class="db-btn" id="btnNext" type="button">下一期 →</button>
+  </div>
+</nav>
+
+<nav class="anchor">
+  <div class="nav-in" id="secNav"></div>
+</nav>
+
+<main class="wrap" id="main">
+  <p class="state" id="state">加载中…</p>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-in">
+      <span>共 <b id="fTotal">—</b> 条 · 数据源：<a id="fLink" href="https://aihot.virxact.com" target="_blank" rel="noopener noreferrer">AIHOT 日报</a></span>
+      <span id="fShot"></span>
+      <span id="fGen"></span>
+    </div>
+    <p class="foot-note">
+      内容由 AIHOT 公开发布，第三方原文版权归原作者所有。卡片摘要为在原文基础上压缩的中文概述，引用数字或原话前请回原文核对。
+      卡片内时间除标注「本期日报收录」外，均为第三方原文发布时间（北京时间）。
+    </p>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

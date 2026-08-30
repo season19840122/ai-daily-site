@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1080">
+<title>AI 日报 · 长图</title>
+<style>
+/* 长图专用样式。刻意避开 color-mix()、backdrop-filter、position:sticky
+   —— 静态图用不到，且这三个在截图时都不可靠。颜色一律写十六进制字面值。 */
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{
+  font-family:"PingFang SC","Noto Sans SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  background:#f5f6f8;color:#14161a;-webkit-font-smoothing:antialiased;
+}
+body{width:1080px}
+
+/* ---------- grid 模式：固定 1080×1440 分页 ---------- */
+.mode-grid .page{
+  width:1080px;height:1440px;background:#fff;position:relative;
+  display:flex;flex-direction:column;padding:56px 64px;overflow:hidden;
+}
+/* ---------- long 模式：1080 宽，高度自适应 ---------- */
+.mode-long .page{
+  width:1080px;background:#fff;display:flex;flex-direction:column;
+  padding:56px 64px;
+}
+.mode-long .p-body{overflow:visible;flex:0 0 auto}
+.mode-long .end-wrap{height:auto;padding:80px 0}
+
+.p-head{display:flex;align-items:center;justify-content:space-between;
+  padding-bottom:20px;border-bottom:3px solid #14161a;flex:0 0 auto}
+.p-head .hl{font-size:30px;font-weight:700;letter-spacing:-.01em}
+.p-head .hr{font-size:22px;color:#8a929e;font-weight:600}
+.p-body{flex:1 1 auto;padding-top:28px;overflow:hidden}
+.p-foot{flex:0 0 auto;display:flex;align-items:center;justify-content:space-between;
+  padding-top:18px;margin-top:18px;border-top:1px solid #e8eaee;
+  font-size:19px;color:#8a929e}
+
+/* ---------- 封面 ---------- */
+.cover-date{font-size:44px;font-weight:700;color:#5b6472;margin-top:52px}
+.cover-total{display:flex;align-items:baseline;gap:18px;margin-top:14px}
+.cover-total .n{font-size:190px;font-weight:800;line-height:1;letter-spacing:-.04em}
+.cover-total .u{font-size:38px;font-weight:700;color:#5b6472}
+.cover-lead{font-size:31px;line-height:1.6;color:#3f4854;margin-top:34px;
+  padding-left:22px;border-left:6px solid #4f46e5}
+.cover-blocks{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:auto}
+.blk{text-align:center}
+.blk .shape{width:88px;height:88px;margin:0 auto 14px}
+.blk .cnt{font-size:40px;font-weight:800;line-height:1}
+.blk .lbl{font-size:19px;color:#5b6472;margin-top:8px;line-height:1.35}
+.sh-circle{border-radius:50%}
+.sh-squircle{border-radius:24%}
+.sh-diamond{transform:rotate(45deg);border-radius:12%}
+.sh-triangle{clip-path:polygon(50% 0,100% 100%,0 100%)}
+.sh-hexagon{clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%)}
+
+/* ---------- 卡片 ---------- */
+.sec-bar{display:flex;align-items:center;gap:16px;margin-bottom:26px}
+.sec-bar .dot{width:16px;height:16px;border-radius:50%;flex:0 0 auto}
+.sec-bar .nm{font-size:36px;font-weight:800;letter-spacing:-.01em}
+.sec-bar .cn{font-size:22px;font-weight:700;background:#f3f4f6;color:#5b6472;
+  border-radius:999px;padding:3px 14px}
+
+.card{padding:22px 0;border-bottom:1px dashed #e8eaee}
+.card:last-child{border-bottom:none}
+.c-top{display:flex;align-items:center;gap:14px;margin-bottom:12px}
+.c-num{font-size:24px;font-weight:800;letter-spacing:.04em;
+  border-radius:10px;padding:4px 14px;color:#fff;flex:0 0 auto}
+.c-src{font-size:19px;color:#6b7280;background:#f3f4f6;border-radius:8px;
+  padding:4px 12px;max-width:660px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.c-title{font-size:32px;font-weight:700;line-height:1.4;letter-spacing:-.01em}
+.c-sum{font-size:24px;line-height:1.6;color:#4b5563;margin-top:12px}
+.c-time{font-size:18px;color:#9aa2ae;margin-top:10px}
+
+/* ---------- 尾页 ---------- */
+.end-wrap{display:flex;flex-direction:column;align-items:center;
+  justify-content:center;height:100%;text-align:center}
+.qr{width:380px;height:380px;background:#fff;border:1px solid #e4e7ec;
+  border-radius:20px;padding:18px}
+.qr img{width:100%;height:100%;display:block}
+.end-tip{font-size:34px;font-weight:700;margin-top:36px}
+.end-sub{font-size:25px;color:#5b6472;margin-top:14px;line-height:1.7}
+.end-note{font-size:20px;color:#9aa2ae;margin-top:52px;line-height:1.8;
+  max-width:840px;padding-top:28px;border-top:1px solid #e8eaee}
+
+.loading{padding:120px;text-align:center;color:#8a929e;font-size:30px}
+</style>
+</head>
+<body>
+<div id="root"><p class="loading">加载中…</p></div>
+
+<script>
+(function(){
+'use strict';
+
+var SEC = [
+  {label:'模型发布/更新', color:'#4f46e5', shape:'sh-circle'},
+  {label:'产品发布/更新', color:'#0d9488', shape:'sh-squircle'},
+  {label:'行业动态',     color:'#b45309', shape:'sh-triangle'},
+  {label:'论文研究',     color:'#7c3aed', shape:'sh-hexagon'},
+  {label:'技巧与观点',   color:'#be123c', shape:'sh-diamond'}
+];
+var WEEK = ['星期日','星期一','星期二','星期三','星期四','星期五','星期六'];
+
+function qs(k, d){
+  var m = new RegExp('[?&]'+k+'=([^&]*)').exec(location.search);
+  return m ? decodeURIComponent(m[1].replace(/\+/g,' ')) : d;
+}
+function esc(s){
+  return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function dateCn(iso){
+  var p = iso.split('-');
+  var d = new Date(+p[0], +p[1]-1, +p[2]);
+  return p[0]+'年'+(+p[1])+'月'+(+p[2])+'日 '+WEEK[d.getDay()];
+}
+function shortDate(iso){
+  var p = iso.split('-');
+  return (+p[1])+'月'+(+p[2])+'日';
+}
+function secOf(label){
+  for(var i=0;i<SEC.length;i++) if(SEC[i].label===label) return SEC[i];
+  return {label:label, color:'#475569', shape:'sh-squircle'};
+}
+
+var date = qs('date','');
+var mode = qs('mode','grid');
+var qrOn = qs('qr','1') === '1';
+var siteName = qs('name','AI 日报');
+var siteUrl = qs('site','');
+
+document.body.className = 'mode-' + mode;
+
+function cardHTML(it, n){
+  var s = secOf(it._sec);
+  return '<div class="card">'+
+    '<div class="c-top"><span class="c-num" style="background:'+s.color+'">'+
+      (n<10?'0'+n:n)+'</span>'+
+      '<span class="c-src">'+esc(it.source)+'</span></div>'+
+    '<h3 class="c-title">'+esc(it.title)+'</h3>'+
+    '<p class="c-sum">'+esc(it.brief)+'</p>'+
+    '<p class="c-time">'+esc(it.timeText)+'</p>'+
+  '</div>';
+}
+
+function headHTML(left, right){
+  return '<div class="p-head"><span class="hl">'+esc(left)+'</span>'+
+         '<span class="hr">'+esc(right)+'</span></div>';
+}
+function footHTML(cur, total){
+  return '<div class="p-foot"><span>'+esc(siteName)+' · '+esc(date)+'</span>'+
+         '<span>'+cur+' / '+total+'</span></div>';
+}
+
+function coverHTML(total, counts, lead){
+  var blocks = SEC.map(function(s){
+    return '<div class="blk">'+
+      '<div class="shape '+s.shape+'" style="background:'+s.color+'"></div>'+
+      '<div class="cnt" style="color:'+s.color+'">'+(counts[s.label]||0)+'</div>'+
+      '<div class="lbl">'+esc(s.label)+'</div></div>';
+  }).join('');
+  return '<div class="cover-date">'+esc(dateCn(date))+'</div>'+
+    '<div class="cover-total"><span class="n">'+total+'</span><span class="u">条精选</span></div>'+
+    (lead ? '<p class="cover-lead">'+esc(lead)+'</p>' : '')+
+    '<div class="cover-blocks">'+blocks+'</div>';
+}
+
+function endHTML(){
+  var qr = qrOn
+    ? '<div class="qr"><img src="img/qr-'+esc(date)+'.svg" alt="二维码"></div>'
+    : '';
+  return '<div class="end-wrap">'+qr+
+    '<p class="end-tip">扫码查看完整日报</p>'+
+    '<p class="end-sub">'+esc(siteName)+' · 每日更新</p>'+
+    '<p class="end-note">内容由 AIHOT 公开发布，第三方原文版权归原作者所有。'+
+    '卡片摘要为在原文基础上压缩的中文概述，引用数字或原话前请回原文核对。</p>'+
+  '</div>';
+}
+
+/* grid 模式：按版块切页，每页最多 N 条；N 由"渲染—测量—降条数"循环决定 */
+function buildGrid(day){
+  var groups = [];
+  day.sections.forEach(function(s){
+    if(!s.items.length) return;           // 空版块跳过，不单独出页
+    var chunk = [];
+    s.items.forEach(function(it, i){
+      chunk.push(it);
+      if(chunk.length === perPage || i === s.items.length-1){
+        groups.push({sec:s.label, items:chunk.slice(), part:0, parts:0});
+        chunk = [];
+      }
+    });
+  });
+  // 标注续页（论文研究 2/2）
+  var lastSec = null, idx = 0;
+  var seen = {};
+  groups.forEach(function(g){
+    seen[g.sec] = (seen[g.sec]||0) + 1;
+  });
+  groups.forEach(function(g){ g.parts = seen[g.sec]; g.part = 0; });
+  groups.forEach(function(g){ g.part += 1; });
+
+  var total = groups.length + 2;          // 封面 + 内容页 + 尾页
+  var html = '';
+  html += '<div class="page" id="p1">'+headHTML(siteName, shortDate(date))+
+          '<div class="p-body">'+coverHTML(dayTotal, dayCounts, dayLead)+'</div>'+
+          footHTML(1, total)+'</div>';
+
+  groups.forEach(function(g, i){
+    var s = secOf(g.sec);
+    var title = g.sec + (g.parts>1 ? '（'+g.part+'/'+g.parts+'）' : '');
+    var body = '<div class="sec-bar"><span class="dot" style="background:'+s.color+'"></span>'+
+               '<span class="nm">'+esc(title)+'</span>'+
+               '<span class="cn">'+g.items.length+' 条</span></div>'+
+               g.items.map(function(it){ return cardHTML(it, it._n); }).join('');
+    html += '<div class="page" id="p'+(i+2)+'">'+headHTML(siteName, shortDate(date))+
+            '<div class="p-body">'+body+'</div>'+footHTML(i+2, total)+'</div>';
+  });
+
+  html += '<div class="page" id="p'+total+'">'+headHTML(siteName, shortDate(date))+
+          '<div class="p-body">'+endHTML()+'</div>'+footHTML(total, total)+'</div>';
+  return html;
+}
+
+/* long 模式：单页到底，封面 + 全部版块 + 尾页，高度自适应 */
+function buildLong(day){
+  var body = coverHTML(dayTotal, dayCounts, dayLead);
+  day.sections.forEach(function(s){
+    if(!s.items.length) return;
+    var st = secOf(s.label);
+    body += '<div class="sec-bar" style="margin-top:48px">'+
+            '<span class="dot" style="background:'+st.color+'"></span>'+
+            '<span class="nm">'+esc(s.label)+'</span>'+
+            '<span class="cn">'+s.items.length+' 条</span></div>'+
+            s.items.map(function(it){ return cardHTML(it, it._n); }).join('');
+  });
+  body += '<div style="margin-top:64px">'+endHTML()+'</div>';
+  return '<div class="page" id="pageLong">'+headHTML(siteName, shortDate(date))+
+         '<div class="p-body">'+body+'</div>'+footHTML(1,1)+'</div>';
+}
+
+var perPage = 5, dayTotal = 0, dayCounts = {}, dayLead = '';
+
+function measure(){
+  var bodies = document.querySelectorAll('.mode-grid .page .p-body');
+  for(var i=0;i<bodies.length;i++){
+    if(bodies[i].scrollHeight > bodies[i].clientHeight + 1) return true;
+  }
+  return false;
+}
+
+function run(day){
+  dayTotal = day.sections.reduce(function(n,s){ return n+s.items.length; },0);
+  dayCounts = {};
+  day.sections.forEach(function(s){ dayCounts[s.label] = s.items.length; });
+  dayLead = '';
+  for(var i=0;i<day.sections.length && !dayLead;i++){
+    if(day.sections[i].items.length) dayLead = day.sections[i].items[0].title;
+  }
+  // 打全局连续编号，并把版块名挂到条目上供配色
+  var n = 0;
+  day.sections.forEach(function(s){
+    s.items.forEach(function(it){ it._n = ++n; it._sec = s.label; });
+  });
+
+  var root = document.getElementById('root');
+  if(mode === 'long'){
+    root.innerHTML = buildLong(day);
+    document.body.setAttribute('data-pages','1');
+    return;
+  }
+  perPage = 5;
+  for(var attempt=0; attempt<3; attempt++){
+    root.innerHTML = buildGrid(day);
+    if(!measure()) break;
+    perPage -= 1;
+    if(perPage < 1){ perPage = 1; }
+  }
+  var pages = document.querySelectorAll('.page');
+  var pageParam = qs('page','');
+  if(pageParam){
+    var want = parseInt(pageParam,10) - 1;
+    for(var k=pages.length-1; k>=0; k--){
+      if(k !== want && pages[k]) pages[k].remove();
+    }
+    document.body.setAttribute('data-pages','1');
+  }else{
+    document.body.setAttribute('data-pages', pages.length);
+  }
+}
+
+fetch('data/' + date.slice(0,7) + '.json')
+  .then(function(r){
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    return r.json();
+  })
+  .then(function(m){
+    var day = m.days[date];
+    if(!day) throw new Error('本期数据缺失：'+date);
+    run(day);
+  })
+  .catch(function(e){
+    document.getElementById('root').innerHTML =
+      '<p class="loading">数据加载失败：'+esc(e.message)+'</p>';
+  });
+})();
+</script>
+</body>
+</html>
