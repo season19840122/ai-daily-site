@@ -2,7 +2,9 @@
 
 把每天散落在各处的 AI 资讯，整理成一份能一口气读完的中文晨报。
 
-- **在线地址**：https://season19840122.github.io/ai-daily-site/
+- **在线地址**：
+  - GitHub Pages：<https://season19840122.github.io/ai-daily-site/>
+  - Netlify：<https://ai-daily-site.netlify.app>
 - **数据源**：[AIHOT 日报](https://aihot.virxact.com)
 - **技术形态**：纯静态站点，无构建、无后端、无依赖
 
@@ -94,13 +96,25 @@ python3 _work/shot.py 2026-08-30 --only long
 
 ## 部署
 
-静态文件直接托管即可，无需构建。当前部署在 GitHub Pages，`main` 分支根目录：
+静态文件直接托管即可，无需构建，整个仓库根目录就是发布目录。目前同时挂在两个平台上：
+
+**GitHub Pages** —— 已开启，`main` 分支根目录。推代码即自动部署：
 
 ```bash
 git add . && git commit -m "更新日报" && git push
 ```
 
-推送后 Pages 会在一到两分钟内自动重新构建。
+推送后一到两分钟内自动重新构建。
+
+**Netlify** —— 站点名 `ai-daily-site`，配置在 `netlify.toml`（无构建命令，`publish = "."`）。本地目录已通过 `netlify link` 关联，手动部署：
+
+```bash
+netlify deploy --prod
+```
+
+注意：Netlify 目前是手工部署，没有接 GitHub 持续集成，`git push` 不会同步过去。要走自动部署，在 Netlify 控制台把这个仓库连上即可。
+
+> 由于发布目录是仓库根目录，`_work/` 下的脚本和原始抓取数据也会被公网访问到。里面没有密钥，但如果在意，给 `netlify.toml` 加一个构建命令、把需要的文件拷到 `dist/` 再发布就能隔开。
 
 ## 关于内容
 
