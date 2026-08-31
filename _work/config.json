@@ -1,6 +1,6 @@
 {
   "_comment": "出图配置。site_url 支持 {date} 占位符。托管定好后把这个换成自己的站点地址，重跑 shot.py 即可，不用改代码。",
-  "site_url": "https://aihot.virxact.com/daily/{date}",
+  "site_url": "https://ai-daily-site.netlify.app/#{date}",
   "site_name": "AI 日报",
   "qr_enabled": true
 }
