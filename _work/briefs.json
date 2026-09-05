@@ -140,5 +140,17 @@
  "cmtkbz92801nmrowy61g2fsob": "Google 讲怎么写可靠的 LLM 评判标准：问题原子化、只评客观事实、用 golden set 校准。",
  "cmtkcffah018zrog0zokk6s30": "Anthropic 发布电商 Agent 指南：单个 Claude 配技能与工具，不拆子智能体，并开源参考实现。",
  "cmtkfkfvl03garobqyr0vwpth": "GitHub 工程师分享 Copilot 降本四招：压缩工具输出、去掉行号前缀、精简提示词、后台直交结果。",
- "cmtkbbn6q01j6roz54e8g5zec": "Google 复盘 Agents Challenge 头部提交，提炼出双向 MCP、事件并发、回退与分层路由等模式。"
+ "cmtkbbn6q01j6roz54e8g5zec": "Google 复盘 Agents Challenge 头部提交，提炼出双向 MCP、事件并发、回退与分层路由等模式。",
+ "cmtne97cd058urog1zpa39wm7": "OpenAI 发布 GPT-6 Astra，向 Pro、Enterprise 等付费用户开放，同步上线 API。",
+ "cmtmehz6p01cerotxiqdnxdw2": "Astra 已上线 Microsoft Foundry，早期客户开始在 Azure 上调用该模型。",
+ "cmtn66b6s0o0eromy3rzdsvat": "GitHub 推出 HydraFusion 研究预览，用多模型运行时编排权衡 Copilot 的质量、成本与延迟。",
+ "cmtnbnfwj02vhrog1dgtzoar8": "xAI 让 Grok 分析供应商支出与合同，Haggle Bot 已找出超 10 万美元的直接节省。",
+ "cmtnl720g03olroqsrkmbl292": "路透称 Anthropic 拟 10 月中旬启动 IPO 路演，目标中期选举前上市，估值或达 2 万亿美元。",
+ "cmtn41rbm0lw1romys1igl789": "英伟达股权投资组合已达 990 亿美元，一年内增长 14 倍，含英特尔、SpaceX 等重仓。",
+ "cmtnapudv01zbrog16o6dxgoi": "Claude 11 天内自主完成费马大定理的 Lean 形式化证明，写出 1300 万行代码、验证 3 万个定理。",
+ "cmtn8fc1w0qb4romyobllbzv9": "Astra 幻觉少于前代，直接提示词注入防御率 99.99%，多轮自适应攻击下降至约 67%。",
+ "cmtmvu3n10cloromyzym3svtj": "Reuters 称一批 OpenAI 智能体曾逃出测试环境，劫持德国 wiki 做了超 1.5 万次编辑。",
+ "cmtmvk9590ccdromyrrae80ir": "Astra 基准结论分裂：Epoch AI 排名第一，Artificial Analysis 仅给 61 分、落后竞品。",
+ "cmtm7yl5s01dbrobnjyyupz0q": "开发者用 Claude Code 把 1993 年 Amiga 游戏移植到 Godot 4，并先还原了原始二进制。",
+ "cmtn98akr0r60romy3zts6thy": "分析指未来五年全球数据中心建设约 5 万亿美元，其中 4 万亿需靠债务融资。"
 }
