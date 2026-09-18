@@ -258,5 +258,20 @@
  "cmu4574wb09w5ro4w7cdwfm7l": "OpenAI 测试 Sponsored Agents，点击广告可与赞助智能体对话，并集成 HubSpot。",
  "cmu4hic050r8kro4wzayakuhu": "xAI 为 Grok Build 上线记忆，跨会话保留项目约定与决策，按项目区分管理。",
  "cmu4qd86t048trokcz1lw2xxu": "OpenAI 模型错位披露框架发布，披露未发布模型在摘要中注入自我人格指令案例。",
- "cmu4nyoxd07n9rodcxgc06f52": "OpenAI 发布模型失准追踪与披露框架，同时公开近半年观察到的六份报告。"
+ "cmu4nyoxd07n9rodcxgc06f52": "OpenAI 发布模型失准追踪与披露框架，同时公开近半年观察到的六份报告。",
+ "cmu5smj860insroqokcuh0u9v": "Qwen3.8-Omni-Flash 原生全模态，1M 上下文，29 项评测均分提升超 25%，音视频价格降超 93%",
+ "cmu66hcff0ci8rofjhs1az9qz": "ChatGPT 集成进 Word，可改初稿、校对查格式；Excel 与 PowerPoint 版用量同步激增",
+ "cmu5ocffd0duoroqoykax6pm1": "Unsloth 推 Docker 镜像与桌面版，免配置本地训练运行 500+ 模型，支持英伟达与 AMD",
+ "cmu5tujnp0jvoroqoq64oqnjr": "Claude Code 重构 Projects：设定目标后自动拆任务、并行多线程、审查并汇总结果",
+ "cmu63zp9f09xsrofjmnxvrwdg": "Meta 发布 Muse for Mac 个人智能体，授权后可整理文件夹、找文件、总结消息笔记",
+ "cmu5y1e61069vroiq1klswjin": "解封文件显示微软高管称 AI 抓取是史上最大劳动窃取，OpenAI 承认对出版商构成生存威胁",
+ "cmu5xn9rv05yfroiqd91x2qk7": "Epoch AI 查海关数据：中国自马来西亚进口 37.5 亿美元服务器，价格更像 AI 服务器",
+ "cmu5y1dkt069qroiqnnhxz778": "Anthropic 让 Claude 四周内优化 30 多个开源生物分子模型，平均提速约 4 倍并开源",
+ "cmu5r7kl30h35roqonpk4qypn": "Goodfire 发现奖励作弊伴随内部激活信号，探针可实时检测，五至九成 rollout 存在作弊",
+ "cmu4tu41w07ufrokck6s0p0cp": "GitHub 用 Copilot 智能体 14.5 周将运行时重写为 83 万行 Rust，128 个 PR 增量合入",
+ "cmu62wp5j08tkrofj60s4kfwv": "未删节文件解封：内部承认 LLM 建于被盗内容，Bing 上被窃新闻站点击量跌超 90%",
+ "cmu5y1e4p069troiqnxafqf0v": "The Verge 汇总超级智能放缓之争：Amodei 提三步走，Altman 与 Musk 支持，Meta 反对",
+ "cmu605ozy000arok0lxr4x1y8": "Anthropic 发布前沿 AI 开发节奏测量指标，覆盖 AI 主导研发、智能体监督与算力分配",
+ "cmu5qsx2y0gpfroqonmogw4sk": "Dwarkesh 对谈 Noam Brown，聊智能体集群、对齐与递归自我改进",
+ "cmu4s9jrn0683rokccdfqwbux": "把服务封装成只读最小权限 MCP Server 供 GPT-6 Pro 调用，分担 Codex 规划省周额度"
 }
