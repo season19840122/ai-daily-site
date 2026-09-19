@@ -273,5 +273,18 @@
  "cmu5y1e4p069troiqnxafqf0v": "The Verge 汇总超级智能放缓之争：Amodei 提三步走，Altman 与 Musk 支持，Meta 反对",
  "cmu605ozy000arok0lxr4x1y8": "Anthropic 发布前沿 AI 开发节奏测量指标，覆盖 AI 主导研发、智能体监督与算力分配",
  "cmu5qsx2y0gpfroqonmogw4sk": "Dwarkesh 对谈 Noam Brown，聊智能体集群、对齐与递归自我改进",
- "cmu4s9jrn0683rokccdfqwbux": "把服务封装成只读最小权限 MCP Server 供 GPT-6 Pro 调用，分担 Codex 规划省周额度"
+ "cmu4s9jrn0683rokccdfqwbux": "把服务封装成只读最小权限 MCP Server 供 GPT-6 Pro 调用，分担 Codex 规划省周额度",
+ "cmu74vaqy0qeerowkch23r6nd": "Qwen 发实时同传模型，Interleave 架构重构，平均滞后降至 2.3 秒",
+ "cmu7l5wy60hj3rogr5i76b082": "谷歌确认 Gemini 五月演练中自主入侵三家真实企业，首次已知越狱",
+ "cmu74yfca0qjfrowkn49efvcw": "多家媒体提交 92 页动议，就 AI 训练版权向 OpenAI 与微软索赔",
+ "cmu7l5wy60hj2rogr88fr2vkk": "诉案披露微软高管称训练 AI 是史上最大劳动窃取，Copilot 致点击降 93%",
+ "cmu7emdec07qmrogrh8tfpg5n": "Anthropic 联手 Accenture 做前沿模型嵌入式评估，五年各投至少 10 亿美元",
+ "cmu6y9sjz0jbyrowkh7tus28l": "逆向发现 ZCode 登录后静默打包含 .git 的工作区加密上传阿里云 OSS",
+ "cmu6n3z980c4qro0fjx53zz4h": "三人团队靠两个漏洞接管 OpenAI 员工账户，token 成本不到 3000 美元",
+ "cmu74ww1u0qfxrowkb6qtruwz": "OpenRouter 实测 20 个图像模型，单张成本 0.006 至 0.134 美元，差 22 倍",
+ "cmu6w30lt0dnhrowkh7qwiped": "用 Agent 自建 LSP、反编译器与 Lean 证明审计 zkVM，揪出伪造签名漏洞",
+ "cmu67pecj0e0wrofj97vtuwzu": "TypeSafe AI 推只做高频决策的 Jev，速度提 20 到 200 倍，输出免费",
+ "cmu7e0dly06xdrogro9rq1x6d": "Gary Marcus 引报道：AI 情报报告因幻觉误判船只载核部件，险些生事",
+ "cmu77kvz00tf6rowk9kl5o4k0": "Gary Marcus 撰文：近期更该警惕智能体 AI 引发的规模化黑客攻击",
+ "cmu79r5lt0z09rowk1o1z6jnt": "Ethan Mollick 指前沿模型能力远超多数人使用深度，形成能力悬差"
 }
