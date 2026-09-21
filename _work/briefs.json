@@ -288,5 +288,9 @@
  "cmu77kvz00tf6rowk9kl5o4k0": "Gary Marcus 撰文：近期更该警惕智能体 AI 引发的规模化黑客攻击",
  "cmu79r5lt0z09rowk1o1z6jnt": "Ethan Mollick 指前沿模型能力远超多数人使用深度，形成能力悬差",
  "cmu7nb3bm0jugrogroyv3fm5h": "Anthropic 拟 11 月 IPO，晚于预期的 10 月，留出时间展示 Q3 财务；估值约 2 万亿美元。",
- "cmu7tboxt0pv0rogre8ibr9n8": "Muse 提示词可扫未来 14 天日历，为异地会议自动加通勤缓冲块，Wang 转发，亦适配 Instinct。"
+ "cmu7tboxt0pv0rogre8ibr9n8": "Muse 提示词可扫未来 14 天日历，为异地会议自动加通勤缓冲块，Wang 转发，亦适配 Instinct。",
+ "cmu9tfhu904turokx2vfjy34f": "Qwen 开源 Qwen-Image-2.1：7B 统一文生图与图像编辑，原生支持透明图像，最多十张参考图。",
+ "cmu96vqg8035srodqu63q13w4": "阶跃星辰发布 Step 5 Preview：600B 参数、27B 激活，支持百万上下文，开源模型全球前三。",
+ "cmu9w55as056krowjqmhejtmz": "Qwen-Image-2.1 已支持 ComfyUI，权重开放下载，7B 单模型兼顾文生图与编辑，可原生 2K。",
+ "cmua567e703tmro5t558lzx7o": "独立调查发现 OpenAI 用 __obi Cookie 将站外浏览关联到 ChatGPT 账号，商家加载像素即回传。"
 }
