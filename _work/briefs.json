@@ -292,5 +292,20 @@
  "cmu9tfhu904turokx2vfjy34f": "Qwen 开源 Qwen-Image-2.1：7B 统一文生图与图像编辑，原生支持透明图像，最多十张参考图。",
  "cmu96vqg8035srodqu63q13w4": "阶跃星辰发布 Step 5 Preview：600B 参数、27B 激活，支持百万上下文，开源模型全球前三。",
  "cmu9w55as056krowjqmhejtmz": "Qwen-Image-2.1 已支持 ComfyUI，权重开放下载，7B 单模型兼顾文生图与编辑，可原生 2K。",
- "cmua567e703tmro5t558lzx7o": "独立调查发现 OpenAI 用 __obi Cookie 将站外浏览关联到 ChatGPT 账号，商家加载像素即回传。"
+ "cmua567e703tmro5t558lzx7o": "独立调查发现 OpenAI 用 __obi Cookie 将站外浏览关联到 ChatGPT 账号，商家加载像素即回传。",
+ "cmubpn8sw05u5ro4vlvacy22d": "小米开源 MiMo-V2.6 系列（Pro 与 Flash 全模态），称是探索递归自我改进的关键一步。",
+ "cmubfarpy0xtirolnplntl9p1": "xAI 发布 Grok 4.7，主打编码与知识工作，定价与 4.6 持平，另推速度加倍变体。",
+ "cmubqsb9l03vbrociqf22sr07": "小米 MiMo-V2.6 Pro 多项 Agent 基准对标 Claude Opus 5，智能指数 46 分居开源首位。",
+ "cmubqsb9b03v9rocigei56crg": "小米 MiMo-V2.6-Pro 智能指数 46 分，超越上代 26 分，登顶开放权重模型。",
+ "cmuao05at0q8uro5tpc85e2kj": "通义千问发布 Qwen-Image-2.1，7B 单检查点兼顾生图与编辑，支持 10 张参考图。",
+ "cmubr2enk04a1rociadivcsjt": "MiMo-V2.6-Pro 以 1628 分登 Code Arena WebDev 约第 10，开源权重中约第三。",
+ "cmuaytowf0c4oroln02tacq0c": "Kimi 发布 Code Desktop 1.0 桌面客户端，macOS 与 Windows 版同步上线。",
+ "cmubom7qi04k8ro4v1zoas2o7": "不列颠哥伦比亚省起诉 OpenAI，指其未在枪击案前通报 flagged ChatGPT 活动。",
+ "cmub7xf1o0pu2roln165i6mhu": "亚马逊封禁 Meta 智能体 Muse 代客购物，争端升级，涉账号凭证与身份披露。",
+ "cmubi4zxl110orolnqaltv0qp": "马斯克称 Grok 4.7 令 xAI 智能体编码排名第三，仅次于 Anthropic 与 OpenAI。",
+ "cmub7xfbe0putrolnfkkepe2c": "Nathan Lambert 发文：中国开源模型在下载量、基准与学术采用上已领先美国。",
+ "cmubni6yr03ihro4v6pea4amm": "Artificial Analysis 评测 Grok 4.7：智能指数 46 分，编码代理得分升至 56。",
+ "cmualyqxc0nztro5tbldva2bh": "访谈汉化组：字幕组已用 AI 大幅提效，漫画嵌字仍坚持人工，看重同好社群。",
+ "cmubhvftd10qjrolnr7q9k3lt": "Tomer Tunguz：专用决策器接管 if-then 判断，分类成本降 76 到 209 倍。",
+ "cmublfs5a03bcro0lebbtf8fb": "Linear 重构 CI 应对 AI 编码验证瓶颈，PR 等待从 6 分钟降至 5 分钟出头。"
 }
