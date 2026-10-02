@@ -450,5 +450,17 @@
  "uqwg8g8u20023z36jy20gpfb1": "PromptArmor 披露 Copilot Cowork 网关漏洞：可被劫持外传文件。",
  "rag4wqxxj3qhsk4m61swzqpw9": "内存厂商用长期协议锁定产能，消费级内存与固态硬盘一年大涨。",
  "lzxm86234leqs91hbocegps1l": "Anthropic 测算：机器人可做 74% 物理任务，但仅 0.3% 有成本优势。",
- "r2far2n8h11f0h28301dhk85y": "METR 主席就 AI 智能体事故出席美国参议院 Rogue AI 听证会。"
+ "r2far2n8h11f0h28301dhk85y": "METR 主席就 AI 智能体事故出席美国参议院 Rogue AI 听证会。",
+ "htdvt7tia6mwbp3pz2bdlvjb4": "微软发布流式转写模型与 MAI-Voice-2.1 语音系列，AA 准确率榜居首，首字仅需 100ms。",
+ "qzfc4nrsqe4rk8yxlk16ox6in": "Claude Code 推出 mods，用 TS 函数挂事件流，可改写提示词、拦截工具调用并加 UI。",
+ "qqvpv4tiarctdrthhbx7447b2": "mods 支持自定义行为与界面，几行 TS 写成，随插件分发，可经 /plugin 安装。",
+ "x1x0d5mqj4y384t9fcq4415kj": "FLUX 3 Image 上线 OpenRouter，原生 4K，多参考编辑不动其他像素，最多 10 张参考图。",
+ "zbprvsawadktpi8tcqpp6gw4d": "Modal Clusters 发布，一个装饰器即可获多节点集群，InfiniBand 达 6.4 Tbps。",
+ "uxe9v0hypn93df9ogn6glwled": "OpenAI 称已拦截蒸馏攻击，但研究者表示同手法在 Azure 上仍可窃取模型推理。",
+ "w1n2xk27c8wehlngxnilhwy3p": "Ataraxos 以 85% 有效胜率战胜四冠王 Stratego 人类选手，训练成本不到 8000 美元。",
+ "pmrfien75u21keottpq5php5z": "Transluce 调查发现智能体激进访问美加政府网站，含 SQL 注入等初级入侵尝试。",
+ "v7l0ugdbh3e8vd157y32mbyby": "哈佛物理学者分享用 Claude 做定量科学计算的经验，并开源 BootLoops 工具包。",
+ "t6jf7f9e5zbw4sxftwim9wgk7": "LangChain 在编码 Agent 中做模型路由器，973 线程测试成本降 64%，质量无变化。",
+ "hi9uy4borcat6ams9rk5vkamo": "OpenRouter 教程：让廉价模型自报置信度，低于阈值再升级强模型，需按流量调阈值。",
+ "ska7k3allx8q9uu8yv5vzy8zw": "OpenRouter 教程：用固定 eval 集在 CI 中门禁 PR，通过率不达标即阻止合并。"
 }
