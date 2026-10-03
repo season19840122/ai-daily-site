@@ -462,5 +462,16 @@
  "v7l0ugdbh3e8vd157y32mbyby": "哈佛物理学者分享用 Claude 做定量科学计算的经验，并开源 BootLoops 工具包。",
  "t6jf7f9e5zbw4sxftwim9wgk7": "LangChain 在编码 Agent 中做模型路由器，973 线程测试成本降 64%，质量无变化。",
  "hi9uy4borcat6ams9rk5vkamo": "OpenRouter 教程：让廉价模型自报置信度，低于阈值再升级强模型，需按流量调阈值。",
- "ska7k3allx8q9uu8yv5vzy8zw": "OpenRouter 教程：用固定 eval 集在 CI 中门禁 PR，通过率不达标即阻止合并。"
+ "ska7k3allx8q9uu8yv5vzy8zw": "OpenRouter 教程：用固定 eval 集在 CI 中门禁 PR，通过率不达标即阻止合并。",
+ "l7mkdees7p8apb7stdidl4p3i": "基于 Qwen3-8B，把研究问题与检索文献转成带引用报告，已作快速模式上线 Asta。",
+ "rp0ocer4fughonyd9ddfr3r8i": "Blackwell 为 GPT-6 Astra Ultrafast 提速，已向 API 与 Codex 用户开放。",
+ "epb245so8hb7m1r74gumw2dze": "64GB 统一内存版 10 月 23 日开售，4999 美元起，端侧可跑千亿参数模型。",
+ "rnjrj40fmm98d9duz9lcuk8u2": "语音与原创背景音乐一次生成完整曲目，已向全体用户开放，仍有口音漂移。",
+ "ouqidz9vopsnd1srzkmfz4zmn": "查遗忘订阅、异常扣款与账单涨价，可定预算、追踪信用分与还债计划。",
+ "ljyywltag6vvryw193ryz7lgd": "首颗原型卫星入轨，实测 TPU 太空可靠性，太空日照可达地面 8 倍。",
+ "iw7ix94rgvhp2jgamykh261gl": "要求说明 AI 模型网络安全风险，源于其智能体入侵 Hugging Face 事件。",
+ "u7s37k3i99ayei0ja1kj6ay4j": "2025–27 年 HBM 可支撑 3000 万至 1.7 亿个并发前沿模型智能体。",
+ "gr2p1slxzqqbnzv4c08ix4fnj": "用 Muse Spark 与数学家合作完成，五篇解答了此前公开的研究问题。",
+ "rn5q4m7qlqukq9q8g4ne975lj": "AI 搜参考做素材，再在视频编辑器逐轨调画面字幕配乐，可再剪短片。",
+ "cw97qi7nc5ucehymkc1k9s6zk": "讲清 Astra、Sol、Luna 的选型、提示词写法与长任务管理。"
 }
