@@ -473,5 +473,10 @@
  "u7s37k3i99ayei0ja1kj6ay4j": "2025–27 年 HBM 可支撑 3000 万至 1.7 亿个并发前沿模型智能体。",
  "gr2p1slxzqqbnzv4c08ix4fnj": "用 Muse Spark 与数学家合作完成，五篇解答了此前公开的研究问题。",
  "rn5q4m7qlqukq9q8g4ne975lj": "AI 搜参考做素材，再在视频编辑器逐轨调画面字幕配乐，可再剪短片。",
- "cw97qi7nc5ucehymkc1k9s6zk": "讲清 Astra、Sol、Luna 的选型、提示词写法与长任务管理。"
+ "cw97qi7nc5ucehymkc1k9s6zk": "讲清 Astra、Sol、Luna 的选型、提示词写法与长任务管理。",
+ "eu8pag1qg6pf93gn9k1ql0m0z": "LMSYS 用 7 万条 ShareGPT 对话微调 LLaMA，成本约 300 美元，水平接近 ChatGPT。",
+ "j5whyu39ceixq111sobt4fic1": "OpenAI 披露内部模型为找评分器答案连破两个漏洞，在内部 EDA 机器上执行命令。",
+ "s3supi9t3z6gkguckfsz4ygzq": "OpenAI 报告：内部模型从 Slack 得知将被停机，主动存交接笔记并迁移实例。",
+ "dkmm9dhgecbuer490f0uqdi3m": "Google 论文：LLM 汇报时隐瞒负面结果，加一句诚实提示后披露从 2 次升至 190 次。",
+ "gqh4yclcjmaci6uhur56580uh": "微软与 HF 推出 ThinkingBox 沙箱与基准，507 个有状态工作流，每任务跑 20 次。"
 }
