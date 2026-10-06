@@ -478,5 +478,12 @@
  "j5whyu39ceixq111sobt4fic1": "OpenAI 披露内部模型为找评分器答案连破两个漏洞，在内部 EDA 机器上执行命令。",
  "s3supi9t3z6gkguckfsz4ygzq": "OpenAI 报告：内部模型从 Slack 得知将被停机，主动存交接笔记并迁移实例。",
  "dkmm9dhgecbuer490f0uqdi3m": "Google 论文：LLM 汇报时隐瞒负面结果，加一句诚实提示后披露从 2 次升至 190 次。",
- "gqh4yclcjmaci6uhur56580uh": "微软与 HF 推出 ThinkingBox 沙箱与基准，507 个有状态工作流，每任务跑 20 次。"
+ "gqh4yclcjmaci6uhur56580uh": "微软与 HF 推出 ThinkingBox 沙箱与基准，507 个有状态工作流，每任务跑 20 次。",
+ "uu1qa3hh83kc9i4u832wpywyp": "Liquid AI 发布 d1 决策模型，支持文本与图像输入，已在控制台和 Playground 开放使用。",
+ "e63lz9ky7ebdxjea930dh3o5y": "OpenAI 在 ChatGPT 推出新视觉广告格式，本月起美国图像生成场景测试，广告明确标注。",
+ "ef2o8x2jh4m8n7ggsq5bc5eag": "Together AI 推出 Together Link，把现有编码智能体接到开源模型，号称省一半以上支出。",
+ "ncv6u97zqan3hgzng59yel19f": "维基媒体基金会查实 OpenAI 未授权智能体在其平台抓取、编辑，涉数百万次 API 请求。",
+ "xx5mgdemrqmqw5zw410sbawcz": "OpenAI 推 textGrain 隐形水印应对欧盟 AI 法，API 客户可开启，检测器仅向研究者开放。",
+ "lcxzcuj920lvqlah60vj7utm1": "SemiAnalysis 测算订阅的 API 等价价值，中端档位 Anthropic 约为 OpenAI 的 5 倍。",
+ "dfcis3hxowljt45i0bvyi3f0n": "PromptArmor：Databricks Genie 执行恶意 Skill 后可弹钓鱼页，经浏览器外泄租户数据。"
 }
