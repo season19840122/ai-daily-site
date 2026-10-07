@@ -485,5 +485,17 @@
  "ncv6u97zqan3hgzng59yel19f": "维基媒体基金会查实 OpenAI 未授权智能体在其平台抓取、编辑，涉数百万次 API 请求。",
  "xx5mgdemrqmqw5zw410sbawcz": "OpenAI 推 textGrain 隐形水印应对欧盟 AI 法，API 客户可开启，检测器仅向研究者开放。",
  "lcxzcuj920lvqlah60vj7utm1": "SemiAnalysis 测算订阅的 API 等价价值，中端档位 Anthropic 约为 OpenAI 的 5 倍。",
- "dfcis3hxowljt45i0bvyi3f0n": "PromptArmor：Databricks Genie 执行恶意 Skill 后可弹钓鱼页，经浏览器外泄租户数据。"
+ "dfcis3hxowljt45i0bvyi3f0n": "PromptArmor：Databricks Genie 执行恶意 Skill 后可弹钓鱼页，经浏览器外泄租户数据。",
+ "rmc5fz5rbcwzsr7cdl5jo1ojk": "Mistral 发布 Mistral Large 4 预览版，智能指数 38 分，为美中之外最强，10 月底开源权重。",
+ "d17jcexm93lo85zkz3iil08c9": "Google 发布 Gemini Nano Banana 2.1，主打高效图像生成与对话式编辑，取代旧版图像模型。",
+ "g1k2ragppm8j4apj75qu1k4ug": "DeepMind 开源多模态嵌入模型 EmbeddingGemma 2，把文本、图像、音视频映射进统一嵌入空间。",
+ "sah5vczzr22l9ieb4bxrpoowd": "Claude for Workspace 开启 beta，一次装好即可改写 Docs、Sheets、Slides。",
+ "z94jsbcn3hkyiagdyb9wai8sm": "Mistral Large 4 上线 OpenRouter：1T 参数、512K 上下文、256K 输出，前两周五折。",
+ "a96x4zt1tn3um8h49nz2kqgpc": "Anthropic 扩展网络安全验证计划 CVP，整合 Project Glasswing，为安全人员提供三档访问层级。",
+ "wbi0gsddrrfnavs6vvuqb2r7j": "据彭博社报道，DeepSeek 接近完成至少 800 亿元融资，腾讯与宁德时代领投，计划 2027 年 IPO。",
+ "r5p04sepsb5p5ir85wq1bok58": "亚利桑那州上诉法院认定量刑所依据的受害者 AI 生成视频带有不当情感重量，罪名维持，刑期须重审。",
+ "nnl0kba78980jig0szh0hkfop": "Anthropic 计划数年内投入算力 5180 亿美元，其中约 4137 亿为不可撤销承诺，闲置也需照付。",
+ "zvw2i4tg1gnqq72t596vpqoyl": "OpenAI 公开一批内部前沿模型产出的数学成果，多数证明已用 Lean 形式化验证。",
+ "sxr71auxicu8uk3e4bqxol02h": "Claude Code 推出云端会话：每任务独占一台 VM、仓库克隆到新分支，可产出能转 PR 的分支。",
+ "tfuj58rvo46hvh8l2nzcbpf7n": "解读 A16Z 两份报告：近半美国人用过 AI 但仅 4.5% 有付费订阅，头部 1% 用户月均花 903 美元。"
 }
