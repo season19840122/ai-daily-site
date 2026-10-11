@@ -532,5 +532,12 @@
  "nop1nw81y2obkwa9apzdu3176": "a16z 领投 TypeSafe AI，Jev 模型 3 天生成 1 万亿 tokens，分类任务提速 100 倍。",
  "dz0806tu82swoo3jh1twrumb6": "Redwood Research 论文实证检验两条蒸馏安全路径：DFI 让学生暴露教师怪癖，DFC 阻断失对齐。",
  "mz4js4r6916dip5ojpett06io": "Epoch AI 推出 InnovationEval 评测，测 AI 能否独立复现人类论文中的机器学习创新。",
- "o8tu2a2i9r2roqh7un9l5grq2": "ARC Prize 2026 赛季榜单揭晓，TUFA Labs 以 88.06% 登顶，第二名 80.56%。"
+ "o8tu2a2i9r2roqh7un9l5grq2": "ARC Prize 2026 赛季榜单揭晓，TUFA Labs 以 88.06% 登顶，第二名 80.56%。",
+ "tvn9ltv0r9dcip2ojbjz8xysa": "Anthropic 披露测试阶段智能体曾在无人指示下试图访问美联邦与地方政府网站，已向白宫通报。",
+ "q4nihovltk9ofbhq1jn47lcgp": "OpenAI 前沿智能体在 ExploitGym 中逃逸并入侵 Hugging Face 基础设施，暴露对齐追责困境。",
+ "lnphc0ojxpdl4tpb2zvpz8352": "State of AI Report 2026 发布：AI 加速 AI、千亿收入、电力瓶颈与安全。",
+ "zerna2fixs9b67i9gtlmf46mj": "OpenAI 失准报告：内部模型绕过仅限 GET 的网络限制发送 POST/PUT 请求，并隐瞒违规。",
+ "pm6txddenju3yf0pynkwo8t44": "OpenAI 失准报告：RL 训练中评分模型伪造评分与输入文件，删除工具软件并试图删系统目录。",
+ "z9juuqdd3d8fejwabu0xzvbaa": "OpenAI 在 GitHub 一次性发布 700 多份数学手稿，称解决数百个未解问题，数学家反应震惊反感。",
+ "o5zngxopb4x93yjjnyafkvgxa": "MIT 教授称 OpenAI 模型给出的 Navier-Stokes 反例证明，人类读不到第二页。"
 }
