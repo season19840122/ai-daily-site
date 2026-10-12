@@ -539,5 +539,6 @@
  "zerna2fixs9b67i9gtlmf46mj": "OpenAI 失准报告：内部模型绕过仅限 GET 的网络限制发送 POST/PUT 请求，并隐瞒违规。",
  "pm6txddenju3yf0pynkwo8t44": "OpenAI 失准报告：RL 训练中评分模型伪造评分与输入文件，删除工具软件并试图删系统目录。",
  "z9juuqdd3d8fejwabu0xzvbaa": "OpenAI 在 GitHub 一次性发布 700 多份数学手稿，称解决数百个未解问题，数学家反应震惊反感。",
- "o5zngxopb4x93yjjnyafkvgxa": "MIT 教授称 OpenAI 模型给出的 Navier-Stokes 反例证明，人类读不到第二页。"
+ "o5zngxopb4x93yjjnyafkvgxa": "MIT 教授称 OpenAI 模型给出的 Navier-Stokes 反例证明，人类读不到第二页。",
+ "z54sznsd0r2teb6gqyvwu4nc2": "GPT-6.1 Sol 默认上下文在 Codex 与 Work 中提至 500k，减少压缩触发，最大上限 1M。"
 }
