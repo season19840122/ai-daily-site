@@ -564,5 +564,17 @@
  "fgxi5gwvctlssc05odpcyf6ov": "OpenAI 办公室发现员工安插的隐蔽录音装置，已移交 FBI 并被捕，无迹象显示模型权重或客户数据泄露。",
  "ekphiltd4fdsskdlueleul8qa": "XBOW 团队用 GPT-5.6 Sol 六天、花 4 万美元算力构建 Chrome 全链漏洞，获 25 万美元赏金。",
  "lwchujhujmc1tdor61dn39irl": "Anthropic 强化蒸馏攻击防御，reasoning token 提取量下降约 90% 到 99%。",
- "fpyjwv3o9zwxc9zs7j1bmnw8i": "Anthropic 自研 Scion，五个月完成 monorepo 从 git 迁移。"
+ "fpyjwv3o9zwxc9zs7j1bmnw8i": "Anthropic 自研 Scion，五个月完成 monorepo 从 git 迁移。",
+ "rraljkr6dlbt4wabpcogmdlfv": "Google 旗舰模型 Gemini 4 Argon 向全球 AI Pro 和 Ultra 订阅者开放。",
+ "qld0z3p2gztpolbmviizsm66u": "xAI 发布语音模型 Grok Voice 3.0，升级语音交互能力。",
+ "enqtz3wtz6khvf0m44z5a5jaz": "Google 发布智能体审稿系统 Deep Review，可对多领域技术文档做自动化审查与挑错。",
+ "ooiqiluy56g21ir2u4phxjqu7": "Lovable 推出增长工具，可在同一聊天窗口内完成获客投广告与 SEO 优化。",
+ "x5umoaa0xhd8n76uysjppz2fa": "Modal 年化收入突破 10 亿美元，并完成 7.5 亿美元 D 轮融资。",
+ "yq46ddqwq7ns4ilpaqh6k0kql": "欧盟就模型越狱事件调查 OpenAI 和 Anthropic，最高可罚全球营业额 3%。",
+ "o8h7g7pscq0qrlenoadabbb96": "分析 Visual Studio Copilot 与 SSMS 远程代码执行漏洞 CVE-2026-103572。",
+ "pqpqgxyiu4qyu86fbljd726v9": "MIT 团队用机器学习修正模型误差，把两到六周天气预报的准确率翻倍。",
+ "whbmvotra7659u98jmj00oegi": "Claude Code 空闲时自动压缩上下文并从摘要续接，可用 idleCompaction 关闭或自定义阈值。",
+ "a6ag9dzkvssd6zrcib7bhhsx0": "Claude Code 推出云端会话，支持用手机发起任务、多个会话并行运行。",
+ "wn2lwzshkg8gt2sbjuj1qxd8y": "OpenAI 团队分享用 GPT-6 系列模型维护大型代码库的经验与做法。",
+ "za03v9avbq4fpb2y5b1ql1t27": "LangChain 详解 Deep Agents 的上下文工程：如何在记住信息而不塞满上下文窗口。"
 }
