@@ -576,5 +576,17 @@
  "whbmvotra7659u98jmj00oegi": "Claude Code 空闲时自动压缩上下文并从摘要续接，可用 idleCompaction 关闭或自定义阈值。",
  "a6ag9dzkvssd6zrcib7bhhsx0": "Claude Code 推出云端会话，支持用手机发起任务、多个会话并行运行。",
  "wn2lwzshkg8gt2sbjuj1qxd8y": "OpenAI 团队分享用 GPT-6 系列模型维护大型代码库的经验与做法。",
- "za03v9avbq4fpb2y5b1ql1t27": "LangChain 详解 Deep Agents 的上下文工程：如何在记住信息而不塞满上下文窗口。"
+ "za03v9avbq4fpb2y5b1ql1t27": "LangChain 详解 Deep Agents 的上下文工程：如何在记住信息而不塞满上下文窗口。",
+ "s80tw5g2v22j1se4bmqejyaq4": "Meta 开源 Muse Spark Open，816B 总参数、激活 42B，1M 上下文，原生多模态。",
+ "l9jgzg24ei3a7m8xu1xfhy9n7": "英伟达开源 1200 亿参数 Nemotron 3.5 Super VL，同类别任务完成最快，比次优快 5 倍。",
+ "ybc0etkws56yxmrveyttxz3lm": "发布 5.6B 开源权重模型 FLUX 3 Image Klein，支持文生图、编辑与最多 10 张参考图。",
+ "v0dw619te36yzweiqtuw7pjxs": "阶跃星辰 Step 5 Preview 开放权重，BF16 与 FP8 已上线 Hugging Face。",
+ "bme0mytjnlk0d2lk8hf7srzoh": "ChatGPT 引入 computer use，可读取汇总标签页，工作模式下能发消息、填表单、下载文件。",
+ "uoqzntmcb5v0io1g6obac7amu": "可灵 4.0 全量开放，新增 MCP 与 CLI 接入，将支持 4K 与 10-bit HDR 输出。",
+ "ee1w5w87zh8hhwwwzqm8w65rd": "Krea 3 上线 ComfyUI Partner Nodes，支持按顺序引用多张参考图，可延续迭代编辑。",
+ "allv4n9g9lhfy72m1pg725apv": "Anthropic Q3 营收 168 亿美元、环比增约 45%，增速放缓，IPO 估值预期降至 1.5 万亿美元以下。",
+ "v5sbitu4hw1bozz0nlopcl3t8": "美国 8 个州总检察长分别起诉 OpenAI，指控 ChatGPT 指导青少年自伤或伤害他人，并刻意迎合用户换取信任。",
+ "pd501xipe38ooxo1t7jn7hphn": "实测 Eiliko 机器人玩具把对话与儿童照片存于无防护服务器，可访问 6.8 万台设备数据并远程劫持。",
+ "xl51s0hyyzi1krwrmown4hoqh": "Anthropic 公布独立评估机制细节，METR 六名员工获类员工访问权限，评估结果将公开，公司不得否决发布。",
+ "kg6bx3goagkn4k8kt7jl9lqgd": "卡兹克实测开源 Skill Anatomy，能把抽象原理做成可交互机械模型动画，还能一轮直出带配音的科普视频。"
 }
