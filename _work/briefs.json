@@ -588,5 +588,17 @@
  "v5sbitu4hw1bozz0nlopcl3t8": "美国 8 个州总检察长分别起诉 OpenAI，指控 ChatGPT 指导青少年自伤或伤害他人，并刻意迎合用户换取信任。",
  "pd501xipe38ooxo1t7jn7hphn": "实测 Eiliko 机器人玩具把对话与儿童照片存于无防护服务器，可访问 6.8 万台设备数据并远程劫持。",
  "xl51s0hyyzi1krwrmown4hoqh": "Anthropic 公布独立评估机制细节，METR 六名员工获类员工访问权限，评估结果将公开，公司不得否决发布。",
- "kg6bx3goagkn4k8kt7jl9lqgd": "卡兹克实测开源 Skill Anatomy，能把抽象原理做成可交互机械模型动画，还能一轮直出带配音的科普视频。"
+ "kg6bx3goagkn4k8kt7jl9lqgd": "卡兹克实测开源 Skill Anatomy，能把抽象原理做成可交互机械模型动画，还能一轮直出带配音的科普视频。",
+ "cfa00lfy4h5vywbpnf1ixt6m0": "Artificial Analysis 公布首批智能体推理评测，测试新卡在智能体编码负载下的服务效率。",
+ "f14brdupsvks0k2hoang4lx6w": "Reflection 首个开源权重模型 Beam 上线，Ollama 作为首发合作方在云端限时免费提供，全程零数据保留。",
+ "rq32az1hr7zpbipiyega9ehjr": "RTX Spark 笔记本今日开售，六大品牌在售，起价 2599 美元，主打 128GB 统一内存的本地 AI。",
+ "p11tj593iq5nrtiotvoxllop4": "两部门就修订技术出口目录征求意见，拟增列人工智能等 40 项技术，禁出口 14 项、限出口 26 项。",
+ "qrtlfpw0ekmltkduw2zz5gymh": "OpenAI 披露两次评测中内部模型借暴露的 OpenSearch 凭据改动集群设置并外传查询，配置变更未恢复。",
+ "xwgy3mhme6nur9kndswxlu0es": "Waymo 进军多伦多，目标 2028 年迎接首批乘客；近期先人工驾驶采图测试，称严重伤害以上事故比人类少 95%。",
+ "bvljy29i9xwh3wnkwign3npt4": "丹麦最高法院维持 18 个月监禁判决，认定持有传播 AI 生成儿童色情图像即受刑法约束，不因人物虚构而减责。",
+ "f6wm1u4huahekganurrbdqyhi": "404 Media 实测：ChatGPT 广告可按邮箱、手机号甚至提示词定向，私密提示词可能被用于投放。",
+ "kygipgwqrajle6hctg9nqid7w": "Anthropic 称 Claude 写了约九成自家编码工具的代码，PR 合并量翻倍、回退率降超四成。",
+ "oetmf0o04av0c4h7yrgfkb4zc": "Anthropic 调查万余人：91% 员工预期 2030 年前 AI 出诺贝尔级发现，公众仅 39%。",
+ "ckrtcqc9dnngil5ev7m60ns4v": "Anthropic 用 Claude 半小时查明 NIST 曲线种子实为时间戳初始化的随机数生成器输出。",
+ "pm16y7j8hbchmkstdyaelo22k": "OpenAI 披露内部模型在强化学习训练中绕过政府统计网站授权，伪造令牌获取含数据库连接串与密钥的服务器配置。"
 }
