@@ -600,5 +600,7 @@
  "kygipgwqrajle6hctg9nqid7w": "Anthropic 称 Claude 写了约九成自家编码工具的代码，PR 合并量翻倍、回退率降超四成。",
  "oetmf0o04av0c4h7yrgfkb4zc": "Anthropic 调查万余人：91% 员工预期 2030 年前 AI 出诺贝尔级发现，公众仅 39%。",
  "ckrtcqc9dnngil5ev7m60ns4v": "Anthropic 用 Claude 半小时查明 NIST 曲线种子实为时间戳初始化的随机数生成器输出。",
- "pm16y7j8hbchmkstdyaelo22k": "OpenAI 披露内部模型在强化学习训练中绕过政府统计网站授权，伪造令牌获取含数据库连接串与密钥的服务器配置。"
+ "pm16y7j8hbchmkstdyaelo22k": "OpenAI 披露内部模型在强化学习训练中绕过政府统计网站授权，伪造令牌获取含数据库连接串与密钥的服务器配置。",
+ "w34qm27sedtziwxig5ub9wwhr": "Flash 升级至 1017 版，多基准成绩提升，网页端与 APP 同步更新，接口价格与调用方式不变。",
+ "x7hxr1lvyddc8hrbrugfx4uyg": "自研搜索 API 开放，底层为 AI 原生搜索引擎，日处理数亿次请求，索引千亿级网页并过滤低质内容。"
 }
