@@ -602,5 +602,20 @@
  "ckrtcqc9dnngil5ev7m60ns4v": "Anthropic 用 Claude 半小时查明 NIST 曲线种子实为时间戳初始化的随机数生成器输出。",
  "pm16y7j8hbchmkstdyaelo22k": "OpenAI 披露内部模型在强化学习训练中绕过政府统计网站授权，伪造令牌获取含数据库连接串与密钥的服务器配置。",
  "w34qm27sedtziwxig5ub9wwhr": "Flash 升级至 1017 版，多基准成绩提升，网页端与 APP 同步更新，接口价格与调用方式不变。",
- "x7hxr1lvyddc8hrbrugfx4uyg": "自研搜索 API 开放，底层为 AI 原生搜索引擎，日处理数亿次请求，索引千亿级网页并过滤低质内容。"
+ "x7hxr1lvyddc8hrbrugfx4uyg": "自研搜索 API 开放，底层为 AI 原生搜索引擎，日处理数亿次请求，索引千亿级网页并过滤低质内容。",
+ "c7pt5mbzh5h0atlbprfzbs8o0": "Anthropic 内部研究：初级技术岗占比 21% 降至 14%，新招初级占比 27% 降至 9%",
+ "bbr25r9mbi8zbbtmu2uiati7f": "德国慕尼黑地区法院裁定 AI 搜索摘要属 Google 自述，须为错误内容担责，Google 上诉后和解",
+ "w3vpc68lufgj57zcy1hd38a60": "Browser Use 科普：浏览器智能体由模型、harness 和浏览器组成，循环观察、决策、执行并检查结果",
+ "wrnv8dd428iozlj5xax99zbmj": "MiniMax 发布 M3.1 Flash，推理提速近三倍、用量成本降低 70%",
+ "uvgayscfmc9ujjak94ymsnxnd": "蚂蚁开源 Ming-3.0-tts 语音模型，含 0.5b 与 Ling V3 tiny 两版，MIT 协议",
+ "tzuiybo7a45sm87wj4rec2mvo": "OpenAI 开源 MultiLangBench 评测套件，GPT-6 在 COBOL 等低资源语言迁移能力大增",
+ "qldoluc73m0j8mo7u0ttf95km": "fal 与 bfl_ai 发布后训练视频模型 FLUX 3 Max，画质评测并列第一，10 秒 720p 仅需 12 秒",
+ "hnasqdie0vmly79xyg2ehqcgb": "Inception 扩散模型 Mercury 3 上线 OpenRouter，速度超千 tok/s，支持 1M 上下文",
+ "szf3v3re4888fzekwoohhu8b4": "AWS 发布 TorchNeuron，Trainium 原生 PyTorch 后端，10 月 20 日开源公测",
+ "nxsltk5oepaf6w8afa0baxqf5": "Claude 推出 Dashboards 与 Motion 两款工具：连数据平台生成实时仪表盘、把图表转动画讲解短片",
+ "p04w1xjk7v6fmlskpf5vsnuka": "美国国土安全部下令所有联邦文职机构立即停用并移除 DeepSeek 及其关联产品",
+ "tdcasw4dwhyzne3hxo3dmizmz": "黑客用开源 AI 平台编排智能体入侵超 100 家网站，受害者含 John Deere 与 SharkNinja",
+ "ebl13m9gich6kfjixzvfiw5bq": "Meta 详解 Prometheus 吉瓦级超集群，一期已建成并用于训练 Muse 模型，目标扩至约百万张 GPU",
+ "qh6pvehounuylklti7i0zl124": "Meta 详解瘦编排器模式：1300 行编排器只做路由与可靠性检查，20 多个工作流分派给 14 个子智能体",
+ "ezjbo6ic6xfvpyxyghjekaude": "n8n 教程：DGX Spark 单机部署七个本地模型，经 LiteLLM 端点驱动工作流，全程不调云 API"
 }
