@@ -617,5 +617,17 @@
  "tdcasw4dwhyzne3hxo3dmizmz": "黑客用开源 AI 平台编排智能体入侵超 100 家网站，受害者含 John Deere 与 SharkNinja",
  "ebl13m9gich6kfjixzvfiw5bq": "Meta 详解 Prometheus 吉瓦级超集群，一期已建成并用于训练 Muse 模型，目标扩至约百万张 GPU",
  "qh6pvehounuylklti7i0zl124": "Meta 详解瘦编排器模式：1300 行编排器只做路由与可靠性检查，20 多个工作流分派给 14 个子智能体",
- "ezjbo6ic6xfvpyxyghjekaude": "n8n 教程：DGX Spark 单机部署七个本地模型，经 LiteLLM 端点驱动工作流，全程不调云 API"
+ "ezjbo6ic6xfvpyxyghjekaude": "n8n 教程：DGX Spark 单机部署七个本地模型，经 LiteLLM 端点驱动工作流，全程不调云 API",
+ "osk3jj5jltogwr6zpo09w80j8": "Inception Labs 发布扩散式大模型 Mercury 3，速度达 1068 tokens/秒。",
+ "ckykonvith99q6hvd0utjdwfn": "DeepSeek 全面开源内部推理框架 DeepInfer，同步开源生产级 Token 编解码组件。",
+ "lh8vm7yp332xoffhqoscusss4": "Google 与 Meta 发布 TorchTPU，为 TPU 提供原生 PyTorch 后端，迁移只改一行代码。",
+ "asyalmeuxw45l5wj2tar3tda5": "ChatGPT 推出 Locked Chats，敏感对话移入受保护空间，可用 PIN 或 Face ID 解锁。",
+ "mlusnw9gi199uld4ixj58m2cz": "Google 基于 TorchTPU 推出 vLLM 与 SGLang 原生推理引擎，开发者可在 TPU 上部署模型。",
+ "srgsfi8edabzrwgg6vjtgw3ya": "路透称 OpenAI 拟抢在 Anthropic 上市前融资约 300 亿美元，估值超 1.4 万亿美元。",
+ "ov4nfafvbhe7d8mj1uirkgsxb": "SpaceX 第三季度营收 146 亿美元、净利 44 亿美元，AI 业务占收入 52%，算力规模达 1.7 GW。",
+ "u6kqfrgiqrhbpxn012nlisd66": "据文件披露，美国陆军网络司令部开发 ECHOTRIBBLE，让 AI 智能体自主在网络间移动清除威胁后自毁。",
+ "apaky0ybxpb9uwt12jrwj954p": "Redact 发现 WhatsApp 帮助页面向 LLM 发送隐藏指令，要求机器人不推荐监管机构、不提 GDPR。",
+ "u9skklgkszb3pcf3cvvc1nefk": "OpenAI 收购 Orchestra Bio 并入 Rosalind，智能体可追踪研发进展、分析批次失败影响。",
+ "cbzvuf1atk51l7i5c2dpgboao": "据泄露的 S-1 文件，Anthropic 难以从 AWS、Google 和微软获得足够算力，厂商已将其视为竞争者。",
+ "oxl50pfymja6rgxkem3y0de9j": "Anthropic 研究模型自主运行 64 小时，设计针对五种蝎子神经毒素的迷你结合剂，共筛出 180 个。"
 }
