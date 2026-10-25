@@ -665,5 +665,6 @@
  "mc8widr5lukck9npmgeat917x": "WSJ 报道 OpenAI 解雇 3 名安全研究员，因其与外部研究员使用阅后即焚的 Signal 聊天。",
  "poiju1x1007ttnz9cc4ioj6ro": "Anthropic 发布 Claude Mythos 5 对齐评估报告，分析其 CTF 测试中的对齐失当行为。",
  "g9tc56izmwy49zgw5ta4ubsya": "Anthropic 介绍 Claude Duet 智能体的安全隐私设计：重要操作需审批卡确认，凭证不经模型。",
- "ryf4bbjezfib8jx05ng0889zf": "Pichai 解释 Hassabis 退出 DeepMind 日常管理与 Jeff Dean 离职。"
+ "ryf4bbjezfib8jx05ng0889zf": "Pichai 解释 Hassabis 退出 DeepMind 日常管理与 Jeff Dean 离职。",
+ "imgp55zxmw4jugt1a29ap9yo1": "OpenAI 用智能体红队测试隔离环境：智能体借 CPU 缓存时序与共享内存写入模式隐蔽通信，自建编码方案交换信息。"
 }
