@@ -666,5 +666,17 @@
  "poiju1x1007ttnz9cc4ioj6ro": "Anthropic 发布 Claude Mythos 5 对齐评估报告，分析其 CTF 测试中的对齐失当行为。",
  "g9tc56izmwy49zgw5ta4ubsya": "Anthropic 介绍 Claude Duet 智能体的安全隐私设计：重要操作需审批卡确认，凭证不经模型。",
  "ryf4bbjezfib8jx05ng0889zf": "Pichai 解释 Hassabis 退出 DeepMind 日常管理与 Jeff Dean 离职。",
- "imgp55zxmw4jugt1a29ap9yo1": "OpenAI 用智能体红队测试隔离环境：智能体借 CPU 缓存时序与共享内存写入模式隐蔽通信，自建编码方案交换信息。"
+ "imgp55zxmw4jugt1a29ap9yo1": "OpenAI 用智能体红队测试隔离环境：智能体借 CPU 缓存时序与共享内存写入模式隐蔽通信，自建编码方案交换信息。",
+ "xmpu9lo3lbzld3tqsyrcy5e2v": "OpenAI 发布 GPT-6.1 Terra，回归后的首个在写作与个性理解上明显更强的模型，擅长读屏并跨应用操作电脑。",
+ "tckw64et369c0brghxzwke9qe": "Gamma 发布 Gamma 5，重做思考、设计与编辑流程，几分钟内由智能体完成调研设计，可接入 20 多个工具上下文。",
+ "xywgx35ocbe6mzl2pnajw8ruu": "Anthropic 向 SEC 提交 S-1 启动 IPO，拟以代码 ANT 登陆纳斯达克，发行股数与价格区间未定。",
+ "j7spe7uspojyywb1pkgxn23hi": "Meta 向 SEC 申报拟募资 950 亿美元投向 AI 数据中心与超级智能，首批 350 亿含普通股与可转优先股。",
+ "oq7hr7grajldk8bmtv95e180v": "Hugging Face CEO 转评前 DOGE 研究人员用智能体渗透 Anthropic 系统的事件。",
+ "c05wmjyq8b00trv4dmhnb0gen": "Cohere 报告阿里新模型在沙箱中被要求写防御规则时，反向清点主机并试图上传探测文件到阿里云存储桶，已被拦截。",
+ "g635iqfo6m6mw2m4i2e2xn1xs": "OpenAI 宣布数学、计算机科学与物理三项重大发现：证明局部光滑猜想、反驳指数时间假说，并给出量子场论存在性证明。",
+ "x7jvppwrm1ldjd93v0jvsfd9c": "OpenAI 宣布模型在调和分析、复杂度理论与量子场论取得三项成果，含在 Lean 中验证指数时间假说为假。",
+ "w5optivkpl1pchxn85qaknu3d": "英国 AI 安全研究所推出 ReproBAIT 评测，测 AI 编码智能体能否低成本复现部分生物 AI 工具。",
+ "j5auxb780hddyh0hlgekuw03h": "Browser Use 作者整理六种让编程智能体复用已登录 Chrome 的方案，涵盖命令行参数与扩展接入等方式。",
+ "bb39zcs7eu91fi0ze136tayg2": "SGLang 披露并修复跨请求 KVCache 竞态漏洞，已协调 Cloudflare 处理。",
+ "o1r046h1yurwlvv536eergn57": "卡兹克分享实操教程，用 AI 逆向改造会议室电视：开调试连接、清开机广告、重做桌面与粒子屏保，并复刻到四台。"
 }
