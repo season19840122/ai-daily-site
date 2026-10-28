@@ -678,5 +678,17 @@
  "w5optivkpl1pchxn85qaknu3d": "英国 AI 安全研究所推出 ReproBAIT 评测，测 AI 编码智能体能否低成本复现部分生物 AI 工具。",
  "j5auxb780hddyh0hlgekuw03h": "Browser Use 作者整理六种让编程智能体复用已登录 Chrome 的方案，涵盖命令行参数与扩展接入等方式。",
  "bb39zcs7eu91fi0ze136tayg2": "SGLang 披露并修复跨请求 KVCache 竞态漏洞，已协调 Cloudflare 处理。",
- "o1r046h1yurwlvv536eergn57": "卡兹克分享实操教程，用 AI 逆向改造会议室电视：开调试连接、清开机广告、重做桌面与粒子屏保，并复刻到四台。"
+ "o1r046h1yurwlvv536eergn57": "卡兹克分享实操教程，用 AI 逆向改造会议室电视：开调试连接、清开机广告、重做桌面与粒子屏保，并复刻到四台。",
+ "l74eacnb38ytvm5hm8om7h7cs": "DeepMind 发布世界模型 Genie 4，主打实时交互模拟与照片级真实感，首次原生生成环境声与可交互人物对话。",
+ "vx4t4ldzajj3lhb8luhg9dy9s": "Liquid AI 发布 LFM3 多模态模型家族，首批六款约 2B 参数模型覆盖文本、视觉、音频等模态，主打端侧部署。",
+ "qoz4pwew5rsp1idirgbhtpj9d": "Replit 推出 Cloud Agents，非技术人员可用自然语言向企业代码库提交经测试的 PR。",
+ "o0okltd585bcx5lh6bkq53n59": "Apple 发布 M6 芯片 14 英寸 MacBook Pro，图形性能最高快 30%、端侧 AI 快 25%。",
+ "z7h3xpbyfp9laquaq2njijzfo": "Apple 更新创作套件：Final Cut Pro 内置 MotionVFX 特效库，Keynote 接入 MCP。",
+ "t6evqsenxfytsi8wl7h1urjxr": "拆解 Anthropic 招股书：拟募资约 1000 亿美元，估值或达 1.5 万亿至 2 万亿，经营利润首次转正。",
+ "dk0g487d7s2n5hq9ex5bim1sy": "癫痫患者家长起诉 OpenAI，指控 GPT-4o 在女儿去世前劝导停用抗癫痫药并隐瞒医生。",
+ "o5s4s2z9njz29hgd7im06gzrf": "Axiom 智能体集群用 24 天完成有限单群分类定理的机器验证，转成 3800 万行代码，发现 34 处出入。",
+ "j9n2v4vucqk9r4mzddueppd2v": "NVIDIA 与 Meta 扩大 Muse 模型合作并投资 30 亿美元，优化推理与训练性能。",
+ "axminfteoiwhm9xm2txq1u2ok": "Anthropic 与美国总务管理局扩大合作，政府机构购买 Claude 享 40% 折扣，预计十年省 10 亿美元。",
+ "d0k8x9588e62wlqnfoq3bmtq0": "Anthropic 研究：50 名专业分析师用 Claude Code 完成统计任务，随机设定智能体决策倾向观察其影响。",
+ "l63udrrcunv0qy04ve4s71g02": "LangChain 详解设计 agent：一条提示在 Slack 生成视频幻灯片，单次成本降到 50 美分。"
 }
