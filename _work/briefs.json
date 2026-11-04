@@ -734,5 +734,21 @@
  "upl3hjjdokqe13w3ieo9opr0v": "OpenRouter 发布 Agent SDK 教程，搭建监控 Hacker News 的常驻 AI Agent",
  "f6dxzur6d4pwjdhvm1x6m5rfp": "据 OpenAI 帮助文档，12 月起 ChatGPT 聊天与 Codex 用量合并为统一 Token 额度",
  "yww15c701iat30p8ttjf029ij": "OpenRouter 发布代码审查脚本教程，用 Responses API 组合沙箱与打补丁工具验证 bug",
- "mhw3rtr5o13p5777y7el9tczk": "Claude Code 技巧：任务变难时输入 ultrathink，可提升该回合剩余推理努力"
+ "mhw3rtr5o13p5777y7el9tczk": "Claude Code 技巧：任务变难时输入 ultrathink，可提升该回合剩余推理努力",
+ "sg5u3u91kw42j1grtyp3ny65n": "Claude Platform 公测 message threads，智能体每轮只发新增消息，首 token 更快。",
+ "l37ydaic43icz85huclc2io6c": "腾讯混元发布 Hyra 2.0，把自动科研重点转向由 agent 研发科学工具与模型，成果已开源。",
+ "sxbs5a90fgybhyucacmzvrc6w": "OpenAI 推出 Grid Protectors，让算力校园在电网紧张时降低用电，首站佐治亚州。",
+ "owfopy087lszd1cpfp3c82pxv": "Anthropic 单季营收近 170 亿美元同比增 12 倍，运营成本 175 亿，净亏损 233 亿美元。",
+ "wlmiqh13694tqabyvu6nzvlrs": "OpenAI 用激活分类器实时监控模型内部，逐 token 评分并中途拦截违规，比文本分类器更抗越狱。",
+ "dzwfvd9xp6v4qaj6olxezpier": "卡兹克分享自建近一年的 Agent 自动化系统：事件触发、四层分工，仅关键决策才人工拍板。",
+ "bfx52184e0ssnqgdq42o8dg36": "Mistral Large 4 开放权重并附技术报告，代码智能体与网络安全能力达前沿，比预览版更高效紧凑。",
+ "ewvepczpb5fewcbzo2tkqdldm": "Google AI Studio 弃用 Gemini 2.5 系列，两款模型 API 请求 12 月 1 日起自动路由。",
+ "ir9nzccipff0uowu3tghi4n3o": "AMD 三季度财报公布，预计 2027 年营收增长超 80%，数据中心芯片将占明年销售额 80%。",
+ "op93lgz2xx0ck3znfm724ebfu": "Revolut 把约 2000 名工程师迁到自托管 GLM 编码，仅 Claude Code 与 Codex 列为例外。",
+ "hf03pwablxanh9desil5cbu9d": "OpenAI 任命前美国陆军部长 Dan Driscoll 任国家安全现代化高级顾问，推动盟友民主 AI 合作。",
+ "fvf2qsdi4s11bz1denqd5rzff": "OpenAI 对比六个模型，发现安全评测通过率比生产决策低 10 到 37 个百分点，误判评测目标是主因。",
+ "kok1qlnli1qd48t9soqgk6c3x": "OpenAI 推出 LifeVal 评测，覆盖照护健康教育理财等日常任务，最新模型多项得分很高。",
+ "zv5dl1agqwo6tkmhdamy17lt5": "Ed Zitron 称 AI 行业资金枯竭：OpenAI 以 1.25 万亿估值融资 110 亿，远低于原计划。",
+ "v41vn9hb5ywv10e68wycj1bjk": "卡兹克发布 DeepSeek Harness 养鱼教程，教你在 QQ、微信、飞书接入大肥鱼并让它去 B 站抖音刷视频。",
+ "recqqiy27l866jfbhjk0cusqh": "OpenHands 与 Snowflake 合作，不重建 RL 框架也能用现有 harness 对开源权重模型做后训练。"
 }
