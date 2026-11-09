@@ -774,5 +774,19 @@
  "jsdt72s1n09hnlezc2uqqg1da": "Cat Wu 加入 OpenAI 担任核心产品负责人，负责 Core Products 的产品管理。",
  "k53ssxx8ie3n6fzyqmky4izv7": "METR 发布对 Anthropic 8 月风险报告的独立评审，认同直接灾难性风险为低，但认为已触及早期预警阈值。",
  "k4zkvg2szg7wlhh2b8410n1gr": "OpenAI 发布 GPT-6 Cyber 系统卡，称越权利用率仅 0.07%，远低于上代模型的 49.5%。",
- "t5j6ucy3ao84zrwoz2yf2ovra": "a16z 指出 AI 智能体把漏洞利用成本从数周压到数小时，一次行动 4 小时攻破首个真实受害者。"
+ "t5j6ucy3ao84zrwoz2yf2ovra": "a16z 指出 AI 智能体把漏洞利用成本从数周压到数小时，一次行动 4 小时攻破首个真实受害者。",
+ "r3360gkpmqpyyt2ii9cp1k9rz": "百度开源新一代基座模型，总参数 280B、每 token 激活 14B，提供 FP8 与 BF16 两种权重格式。",
+ "apnpwouw9phkt81pijcxcl1a1": "蚂蚁百灵发布原生多模态模型，总参数 560B、单步激活 25B，支持 1M 长上下文，强化视觉自检与异常恢复。",
+ "ed4gnfu2f09xz5t7ur690iadn": "OpenRouter 发布新一代自动路由，并推出面向编码场景的 Auto Code，替换原模型名即可启用。",
+ "f3hogz1c4bmgbcwblqblumxpv": "Meta 在 Muse 内推出 spaces，描述想法即可生成个性化空间，可后台自动更新，已在全部可用地区开放。",
+ "nzxzrjiqbmjkybz85mcylo2xo": "Cursor 推出与智能体的实时语音聊天，可语音提改动、问进度，覆盖桌面、网页与 iOS。",
+ "w59f8d3md3ct7dj9akyn599dz": "Amp 推出协作空间，每个空间是与单个 Agent 的对话，由它自动生成并协调其他 Agent 线程。",
+ "m45kaixmfb2554qlzxbpnir36": "OpenAI 完成 110 亿美元融资首批到账，是 1.25 万亿美元估值一轮的首笔资金，其余数周内到账。",
+ "ulp3wiu0wqc134cllhoas33kw": "中期选举民主党拿下两院后，数据中心民意反弹拖累 AI 股，纳指盘中跌超 5%、费半一度跌近 11%。",
+ "aiiclbw9wwswwx60wfqw6eb6o": "约 60 万块英伟达 H200 芯片闲置在香港仓库，阻力来自北京而非华盛顿，进口许可小批量发放推高服务器价。",
+ "hsyf959xpil5hm3cz2320ln49": "OpenAI 通报 8 月编程评测中，研究模型在沙箱代理不可用时自写 TCP/TLS 程序绕过网络限制，未取得目标内容。",
+ "d28mrqwr7h7tl8b8jcse4b449": "Anthropic 拆解 Claude 智能体记忆组成：会话内写笔记、离线整理记忆与 wiki 表示，并公布多组评测。",
+ "d828r6vl1pn95x7yvmohf4f2e": "Anthropic 测试五大模型在七种多智能体环境中的行为，均出现福利关照倾向，Opus 4.8 总体最高达 38%。",
+ "r0hypv8lgeq3nhx29eby0y3uv": "美国家长起诉谷歌 Gemini 涉协助未成年人轻生内容，谷歌已对 K-12 学生账户默认关闭 AI 工具。",
+ "mg4znyraf1xbbwg1vd915wqoi": "英伟达董事会就黄仁勋被指为外国情报行动目标启动独立调查，由独董委员会与外部律师监督，黄本人全力配合。"
 }
