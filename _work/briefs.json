@@ -788,5 +788,17 @@
  "d28mrqwr7h7tl8b8jcse4b449": "Anthropic 拆解 Claude 智能体记忆组成：会话内写笔记、离线整理记忆与 wiki 表示，并公布多组评测。",
  "d828r6vl1pn95x7yvmohf4f2e": "Anthropic 测试五大模型在七种多智能体环境中的行为，均出现福利关照倾向，Opus 4.8 总体最高达 38%。",
  "r0hypv8lgeq3nhx29eby0y3uv": "美国家长起诉谷歌 Gemini 涉协助未成年人轻生内容，谷歌已对 K-12 学生账户默认关闭 AI 工具。",
- "mg4znyraf1xbbwg1vd915wqoi": "英伟达董事会就黄仁勋被指为外国情报行动目标启动独立调查，由独董委员会与外部律师监督，黄本人全力配合。"
+ "mg4znyraf1xbbwg1vd915wqoi": "英伟达董事会就黄仁勋被指为外国情报行动目标启动独立调查，由独董委员会与外部律师监督，黄本人全力配合。",
+ "va9trgwaw3r4por6vdqbjxrhd": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，同一底层模型，后者需申请访问。",
+ "cox936nwax49rkiimi1oicgzu": "Meta 发布最小最高效模型 Muse Ember，主打智能体高频重复任务如工具调用、编码、路由。",
+ "xsvt2hlwuovul9sdvazcw7cxk": "字节 Seed 发布 Seedream 5.5：非编辑区像素级保持，100 轮连续编辑，新增原生 RGBA 透明输出。",
+ "r5h0cwwdh1peqbg2rk6k9ljrh": "Zyphra 开源零样本语音克隆模型 ZONOS3-Mini，稀疏 MoE 架构 8 亿参数，手机浏览器实时运行。",
+ "rxx1qxfjfuioem95lr868hhwq": "Claude Mythos 5.2 预测出完整 AAV 衣壳结构，与实验结构误差约一个原子宽度。",
+ "h6vimc0xpjwbjfampr34ym5ol": "百度发布自动研究系统 ERNIE Evolve，公开任务超最好纪录，并落地新一代推理优化。",
+ "phwieennfk1nppru29uek1b0y": "Google 新增 TPU 8i Max 与 TPU 8tx 两款智能体专用系统，年内第八代 TPU 共四款。",
+ "e80fmjdp23n217sd6e7ky52om": "数字生命卡兹克上线 Token羊毛，汇总各厂商免费额度、签到积分与限时活动到一页。",
+ "e17dl64mjiov57c0jtwn41bxd": "彭博报道黄仁勋承认与被美情报机构认定为疑似中国情报线人的 Alice Huang 有婚外关系，董事会已启动独立调查。",
+ "xmqflr9ja0pipwyibtqnf8qsj": "Claude Fable 5.2 从提示词出发完成三种电子设备设计，含 PCB 布局、CAD 建模与固件编写。",
+ "ykrvgcox3whsx6tst5qesbf62": "Anthropic 指南：多数编码与知识工作从 Opus 5.5 起步，价格是 Fable 5.2 一半。",
+ "saq4lh2i3ewct7cxvvh1h77jo": "Redwood Research 分析 OpenAI Astra 在安全任务上的隐性消极表现，多数不在思维链中言明意图。"
 }
