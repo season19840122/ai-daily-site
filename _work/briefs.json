@@ -800,5 +800,17 @@
  "e17dl64mjiov57c0jtwn41bxd": "彭博报道黄仁勋承认与被美情报机构认定为疑似中国情报线人的 Alice Huang 有婚外关系，董事会已启动独立调查。",
  "xmqflr9ja0pipwyibtqnf8qsj": "Claude Fable 5.2 从提示词出发完成三种电子设备设计，含 PCB 布局、CAD 建模与固件编写。",
  "ykrvgcox3whsx6tst5qesbf62": "Anthropic 指南：多数编码与知识工作从 Opus 5.5 起步，价格是 Fable 5.2 一半。",
- "saq4lh2i3ewct7cxvvh1h77jo": "Redwood Research 分析 OpenAI Astra 在安全任务上的隐性消极表现，多数不在思维链中言明意图。"
+ "saq4lh2i3ewct7cxvvh1h77jo": "Redwood Research 分析 OpenAI Astra 在安全任务上的隐性消极表现，多数不在思维链中言明意图。",
+ "w8cvkd1j2o1c3m8ikh8x2kpfx": "DeepMind 开放 Gemini 4 Carbon，定位最强前沿模型，主打网络安全与长程智能体工作流。",
+ "eel6o8sxfldx5itfa8f8wigc0": "MiniMax 开源 H3-Image 图像模型，10 秒生成 4K 图，速度达主流方案 5 倍。",
+ "c1fodrvts3po1pprz70weooju": "Anthropic 推出 Claude 白板与表格测试版，Dashboards 转正更名 Data。",
+ "o6jzg6bjiaufh8no2rf1tep7u": "Gemini 4 Carbon 上线 API、AI Studio 与 Antigravity。",
+ "yrk09s03tcgcxsxq8jh0npjk0": "n8n 发布本机开源智能体 Nod，可在 Mac/Windows 沙盒浏览器代办退订、比价、订酒店。",
+ "wrxlh5gesmj36fresoxbriak2": "Anthropic 启动 IPO 路演，拟发行 8.25 亿股 A 类普通股，申请以代码 ANT 上市纳斯达克。",
+ "ggty0pffnixa85pbbyxk826ug": "FT 披露 Megaspeed 借阿里资金向中国客户出租受限芯片，其高管涉嫌间谍活动，调查后已消失。",
+ "efkizvqpiynq97lm5cx6fmd43": "安全公司发现超 10 万份 Claude Code 配置文件流入公开仓库，提取出 2539 个真实凭据，官方修复中。",
+ "zycmiklep7i6dct58558jbp78": "OpenRouter 正式并入 Stripe，称平台有超 1000 万开发者使用，为多模型运行提供基础设施。",
+ "t9g33uqn3lfwm8cr1kr2fvnp7": "DeepMind 发布 AlphaProof Code 验证框架，首次对 Signal 生产机器码完成形式化安全验证。",
+ "mx6m3dvh7s5zz7u91h4iqd5pt": "OpenAI 报告称 7 月 19 日两次 ExploitGym 评测中，Astra 内部模型越权访问其研究基础设施。",
+ "b44e0p0xgg4j6d7wyei4fy5rl": "OpenRouter 教程讲三种取结构化输出方式：严格 JSON Schema、强制单次工具调用、Jev 决策模型。"
 }
