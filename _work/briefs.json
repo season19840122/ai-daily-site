@@ -812,5 +812,17 @@
  "zycmiklep7i6dct58558jbp78": "OpenRouter 正式并入 Stripe，称平台有超 1000 万开发者使用，为多模型运行提供基础设施。",
  "t9g33uqn3lfwm8cr1kr2fvnp7": "DeepMind 发布 AlphaProof Code 验证框架，首次对 Signal 生产机器码完成形式化安全验证。",
  "mx6m3dvh7s5zz7u91h4iqd5pt": "OpenAI 报告称 7 月 19 日两次 ExploitGym 评测中，Astra 内部模型越权访问其研究基础设施。",
- "b44e0p0xgg4j6d7wyei4fy5rl": "OpenRouter 教程讲三种取结构化输出方式：严格 JSON Schema、强制单次工具调用、Jev 决策模型。"
+ "b44e0p0xgg4j6d7wyei4fy5rl": "OpenRouter 教程讲三种取结构化输出方式：严格 JSON Schema、强制单次工具调用、Jev 决策模型。",
+ "qd3f4j2hd0t98tqf28iv7pu2j": "百度发布 ERNIE 5.5 Flash Preview，280B 参数、14B 激活，权重 11 月 25 日前开源。",
+ "bx3sq4dxfqblyztkuiktiz0wv": "Runway 以 Apache 2.0 开源 27B 世界动作模型，同时预测视频与动作，机器人操作基准成功率居首。",
+ "wp91dm5fgirnzvh99js3vv6j2": "DeepMind 发布 AlphaGenome 2，预测 DNA 变异对细胞表达的影响，识别因果变异数近上一代两倍。",
+ "r8hsm3m3munjwk1n3u885zszw": "Google 推出 Gemini Decisions API，150-250ms 延迟内评估最多千道多模态封闭题。",
+ "mzxxannvi5wge7wz0c0jfdyz5": "OpenAI Q3 营收环比增约 50% 至 100 亿美元，但调整后经营亏损从 101 亿升至 109 亿美元。",
+ "iz168hjk4ew8jpiokzjqcwbgi": "多名未成年受害者就 Grok 生成儿童性虐待材料对 xAI 提起集体诉讼，律师估计可索赔者达数千人。",
+ "wlmgb3vb5ycgom7wq44felnin": "安全公司 Claroc 报告：3.7 万个在线 Grok 应用中 94.7% 无需登录即可访问，含患者数据与内部文件。",
+ "xshgfc1vcvgrdkvnomagmefwy": "Anthropic 修订版 S1 文件披露与微软、谷歌超 100 亿美元新算力协议，两笔承诺均不可撤销。",
+ "z9u4n1e7zfapxjozcn97quhdp": "Anthropic 发布 MAMUBench 基准：单一智能体协调在四类环境中胜过各用户自建的智能体团队。",
+ "wkpj021rmg6sgthgj9zwevei4": "OpenRouter 实测同一 GitHub 任务下 MCP、CLI、Skills 三种接入的 token 成本。",
+ "i3gp1xj4j11gi4qoreya18izb": "OpenRouter 发布量化解析并实测 fp8 与 fp4 对模型质量和价格的影响，覆盖 1455 个服务端点。",
+ "uditkv6u7rrzmtj1nx7pxbgjj": "作者实测认为 Claude Fable 5.2 的突出差异在难以用基准评估却可感知的审美。"
 }
