@@ -824,5 +824,17 @@
  "z9u4n1e7zfapxjozcn97quhdp": "Anthropic 发布 MAMUBench 基准：单一智能体协调在四类环境中胜过各用户自建的智能体团队。",
  "wkpj021rmg6sgthgj9zwevei4": "OpenRouter 实测同一 GitHub 任务下 MCP、CLI、Skills 三种接入的 token 成本。",
  "i3gp1xj4j11gi4qoreya18izb": "OpenRouter 发布量化解析并实测 fp8 与 fp4 对模型质量和价格的影响，覆盖 1455 个服务端点。",
- "uditkv6u7rrzmtj1nx7pxbgjj": "作者实测认为 Claude Fable 5.2 的突出差异在难以用基准评估却可感知的审美。"
+ "uditkv6u7rrzmtj1nx7pxbgjj": "作者实测认为 Claude Fable 5.2 的突出差异在难以用基准评估却可感知的审美。",
+ "uy1ayrrlqx1snqsv4lub7whsa": "DeepMind 发布 Gemini 4 Hydrogen，主打快速执行日常编码与智能体工作流，已全面开放。",
+ "l36ne5q2gsdx6thyia7fi10kn": "Anthropic 推出 Claude Meetings，Claude 以参会者身份加入视频会议，可答疑并共创文档。",
+ "t5pucqx6ac58z0ed1b0875ci0": "Anthropic 宣布 Opus 5.5 成为付费套餐默认模型，推荐用作研究、分析与写作的日常主力。",
+ "hjhcsj440ym8b7ynttcx4433j": "Google 智能眼镜开放预购，12 月 10 日发货，可在线下单并到部分合作门店试戴体验。",
+ "k7sfjumcmtq0zswb5yj5kmju1": "Replit Agent 新增代购与投放能力：可代企业购物资，也能直接创建投放 Google Ads。",
+ "qsbjbz754aodhcijq56puh6va": "NVIDIA 宣布黄仁勋即刻辞去总裁、CEO 及董事职务，CFO Colette Kress 出任临时 CEO。",
+ "k99zjo9hbtous9r6vmmz7pxyh": "Anthropic 官方宣布启动首次公开募股，已向 SEC 提交注册声明，入口为 ipo.anthropic.com。",
+ "ivpl9ziip8mpoa90avi3ke9pj": "Tomasz Tunguz 分析黄仁勋辞任 NVIDIA 总裁兼 CEO 后对 AI 行业的五点影响。",
+ "cfh0nazzl7eedgttz8n99fza4": "民主党议员 Neal 与 Wyden 就 NVIDIA 对华芯片销售启动调查，致函商务部长要求保存相关记录。",
+ "k1kga19xtdab67lhplor8he8n": "Rohan Paul 转引观点称 NVIDIA 放走黄仁勋是巨大错误，堪比当年解雇乔布斯，并列举创始人被逐先例。",
+ "cve017k4le2q7l8x1bfr2xdjx": "OpenRouter 上线七种语言 Beta 本地化，详解自纠错翻译流水线：全站重译约 460 美元，仅为传统译法六成。",
+ "vq9nwgwhtm31cgoliyb7ydyde": "OpenRouter 发布教程解析 Agent 无限循环烧钱成因，给出检测、参数归一化、步数成本上限与额度四层防护。"
 }
